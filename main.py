@@ -14,8 +14,8 @@ if (player1 == "Rock" or player1 == "rock"
 elif (player1 == "Paper" or player1 == "paper" or player1
       == "📄") and (player2 == "Rock" or player2 == "rock" or player2 == "🪨"):
     print("Player 1 wins!!")
-elif (player1 == "Rock" or player1 == "rock"
-      or player1 == "🪨") and (player2 == "Scissors" or player2 == "scissors"):
+elif (player1 == "Rock" or player1 == "rock" or player1 == "🪨") and (
+        player2 == "Scissors" or player2 == "scissors") or player2 == "✂️":
     print("Player 1 wins!")
 elif (player1 == "Scissors"
       or player1 == "scissors") and (player2 == "Rock" or player2 == "rock"
@@ -24,8 +24,9 @@ elif (player1 == "Scissors"
 elif (player1 == "Paper" or player1 == "paper"
       or player1 == "📄") and (player2 == "Scissors" or player2 == "scissors"):
     print("Player 2 wins!")
-elif (player1 == "Scissors"
-      or player1 == "scissors") and (player2 == "Paper" or player2 == "paper"):
+elif (player1 == "Scissors" or player1 == "scissors"
+      or player1 == "✂️") and (player2 == "Paper" or player2 == "paper"
+                               or player2 == "📄"):
     print("Player 1 wins!")
 else:
     print("Draw!")
